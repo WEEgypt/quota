@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Quota Calculator</title>
+        <link rel="icon" href="icon.png" />
+        <link rel="apple-touch-icon" href="icon.png" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <br />
+            <br />
+            <br />
+            <h2>Quota Calculator</h2>
+            <br />
+            <br />
+            <input type="number" id="BESQuota" placeholder="BES" autofocus />
+            <input type="text" id="CSTQuota" placeholder="GB" size="10" readonly />
+            <br />
+            <br />
+            <input type="button" onclick="CalQuota()" value="Calculate" />
+            <input type="reset" value="Reset" onclick="ResetCal()" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <footer>
+            <p style="font-size: 9px;">Developed by: Mamdouh Khalaf (Almaragha Store Manager)</p>
+            <a id="more" style="font-size: 10px;" title="Thanks" onclick="Thanks()">˅</a>
+            <div style="display: none;" id="thanks">
+                <p style="font-size: 10px;">Channel Manager: Ahmed Kasem</p>
+                <p style="font-size: 10px;">Regional Manager: Ahmed Nabil</p>
+                <p style="font-size: 10px;">Area Manager: Eslam Gomaa</p>
+            </div>
+        </footer>
+        <br />
+        <br />
+        <br />
+    </body>
+</html>

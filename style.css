@@ -1,0 +1,26 @@
+:root {
+    --bg: #fff;
+    --color: #000;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #000;
+        --color: #fff;
+    }
+}
+body {
+    background-color: var(--bg);
+    font-family: verdana;
+    color: var(--color);
+    text-align: center;
+    margin: auto;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    min-width: 300px;
+    max-width: 960px;
+    padding: 8px;
+}
+.content {
+    max-width: max-content;
+    margin: auto;
+}
